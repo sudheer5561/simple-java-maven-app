@@ -1,4 +1,4 @@
-pipepline{
+node {
     stages{
         stage('Checkout code from GIT repository') {
             steps{
