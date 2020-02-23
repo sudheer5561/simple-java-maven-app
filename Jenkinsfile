@@ -6,7 +6,7 @@ agent any
             steps{
                 git 'https://github.com/sudheer5561/simple-java-maven-app'
             }
-               
+         }
         stage('Compile and Build the code'){
             steps{
                 sh 'mvn clean package'           
@@ -15,5 +15,4 @@ agent any
                
 			}
 		}
-	}
 }
