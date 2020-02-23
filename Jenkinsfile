@@ -1,5 +1,4 @@
 pipepline{
-agent any
     stages{
         stage('Checkout code from GIT repository') {
             steps{
