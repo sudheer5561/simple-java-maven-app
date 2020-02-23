@@ -10,12 +10,9 @@ agent any
             steps{
                 sh 'mvn clean package'           
             
-            }
+				}
                
-        }
-    }
+			}
+		}
+	}
 }
-
-
-
-   
