@@ -1,6 +1,8 @@
 pipeline{
     agent { label 'node1'}
 
+    parameters { choice choices: ['Master', 'feature1', 'feature2'], description: '', name: 'BuildName' }
+
     environment{
         PATH = "/opt/apache-maven-3.6.3/bin:$PATH"
 
